@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    background-color: transparent;
+    color: #5f9ea0;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: transparent;
+}
+
+nav ul li {
+    background-color: transparent;
+}
+
+nav ul li a {
+    background-color: transparent;
+    color:#F4F4F4;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #000;
+    float: right;
+    margin: 0 200px 0 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(178deg, #000 80%, #F4F4F4 calc(80% + 2px));
+    color:#F4F4F4;
+    padding-left: 100px;
+}
+
+header p {
+    font-size: 25px;
+    width: 50%;
+    background-color: transparent;
+    padding-bottom: 100px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: transparent;
+    position: relative;
+    bottom: 300px;
+    right: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: transparent;
+    padding-top: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: transparent;
+}
+
+p {
+    font-size: 20px;;
+    background-color: transparent;
+}
+
+#skills {
+    background-color: #3d7241;
+    color: #F4F4F4;
+    text-align: center;
+}
+
+#project {
+    text-align: center;
+    background-color: #223f24;
+    color:#F4F4F4
+}
+
+.fa-brands {
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.skillName {
+    font-size: 20px;
+    background-color: transparent;
+    color: #F4F4F4;
+}
+
+.about-me {
+    background-color: #529b58;
+    color:#F4F4F4;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.my-paragraphs {
+    text-align: justify;
+    background-color: transparent;
+    color: #F4F4F4;
+    display: flex;
+    gap: 20px;
+}
+
+.para {
+    background-color: transparent;
+    flex: 1;
+}
+
+.projects {
+    background-color: transparent;
+}
+
+.projects strong {
+    background-color: transparent;
+}
+
+.entry {
+    background-color: transparent;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.projects {
+    background-color: #223f24;
+    color:#F4F4F4;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.entry {
+    text-align: justify;
+    background-color: transparent;
+    color: #F4F4F4;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.description {
+    background-color: transparent;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}

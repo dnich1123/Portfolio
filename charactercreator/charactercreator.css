@@ -1,0 +1,24 @@
+body {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjcyOC0yNDgteC5qcGc.jpg);
+    background-size: cover;
+}
+
+#app {
+    font-size: 30px;
+    width: 50%;
+    border: 3px solid #006400;
+    padding: 0 10px 10px;
+    background-image: url(https://live.staticflickr.com/3061/2869480311_8cc1785292_b.jpg);
+    background-size: cover;
+}
+
+button {
+    background-color: #006400;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button {
+    text-align: center;
+    margin: 0;
+}

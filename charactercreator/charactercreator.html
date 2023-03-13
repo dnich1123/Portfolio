@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Character Creator - DN</title>
+        <link href="./charactercreator.css" type="text/css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+        <script src="./charactercreator.js" defer></script>
+    </head>
+
+    <body>
+        <div id="app">
+            <h2>What will your next D&D character be?</h2>
+            <p>Race: {{chosenRace}}</p>
+            <p>Class: {{chosenClass}} </p>
+            <p>Background: {{chosenBackground}}</p>
+            <p>Backstory Writing Prompt: {{chosenBackstory}}</p>
+            <p class="button"><button @click="picker">Give Me Another Idea!</button></p>
+        </div>
+    </body>
+</html>
